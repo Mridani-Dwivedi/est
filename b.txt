@@ -1,0 +1,13 @@
+#git init
+
+git clone path
+
+git config user.name "Mridani-Dwivedi"
+git config user.email "Mridani.Dwivedi@dal.ca"
+git add file.py
+git commit -m "first commit"
+#git remote add origin https://github.com/inwk6312fall2019/dss-Mridani-Dwivedi.git
+git push -u origin master
+git push -f origin master
+git remote -v
+git remote rm origin
